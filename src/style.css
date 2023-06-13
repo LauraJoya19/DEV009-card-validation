@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gluten', cursive;
+  }
+
+  header {
+    text-align: center;
+    padding: 0px 10;
+    margin: 30; 
+      
+      }
+  body {background-image: url(imagenes/fondo.jpg);
+ 
+  }
+  
+    .img1{
+    margin: 80px 0px 0px 50px;
+    height: 250px;
+   }
+   .img2{
+    margin: 80px 0px 0px 50px;
+    height: 250px;
+    }
+   .img3{
+    margin: 80px 0px 0px 50px;
+    height: 250px;
+      
+  } 
+  .img4{
+    margin: 80px 0px 0px 50px;
+    height: 250px;
+        }
+   
+   .letra{color: rgb(245, 243, 240);
+  text-align: left ;
+  font-size: 30px; background-size: cover;
+  margin: 3%;}     
+
+  .gr{color: aliceblue; 
+    font-size:xx-large;
+  margin: 3%;}  
+  
+  button {
+  width: 25%;
+  display:auto;
+  margin: 6%;
+  padding: 15px;
+  position: left;
+
+  background-color: #f0df2a;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;}
+  
+ button:hover {
+    background: #df6a30;
+    color: #fff;
+  }
+
+ .formcontainer{
+  max-width: 700px;
+  margin: auto;
+  padding: 20px; 
+
+ }
+
+ .forminput{
+  margin: 1%;
+  padding: 4px;
+  width: 25%
+
+ }
+ .month{
+  margin: 1%;
+  padding: 4px;
+  width: 25%
+
+ }
+ .year{
+  margin: 1%;
+  padding: 4px;
+  width: 25%
+
+ }
+ .pago{
+  margin: 1%;
+  padding: 15px;
+  width: 25%
+ }
