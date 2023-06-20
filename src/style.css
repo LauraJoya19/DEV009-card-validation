@@ -1,18 +1,24 @@
-* {
+* { /*selector universal */
     box-sizing: border-box;
     font-family: 'Gluten', cursive;
+  } 
+  
+  html {
+    height: 100%;
   }
 
-  header {
-    text-align: center;
-    padding: 0px 10;
+  header { 
+    text-align: center; /* posicion central del texto en el header*/
+    padding: 0px 10; 
     margin: 30; 
       
       }
+  /* img fondo*/
   body {background-image: url(imagenes/fondo.jpg);
- 
+    min-height: 100%;
+     
   }
-  
+  /* posicion imagenes */
     .img1{
     margin: 80px 0px 0px 50px;
     height: 250px;
@@ -24,23 +30,19 @@
    .img3{
     margin: 80px 0px 0px 50px;
     height: 250px;
-      
-  } 
+    } 
   .img4{
     margin: 80px 0px 0px 50px;
     height: 250px;
-        }
-   
+  }
+   /*estilo letra especifica*/
    .letra{color: rgb(245, 243, 240);
   text-align: left ;
   font-size: 30px; background-size: cover;
   margin: 3%;}     
-
-  .gr{color: aliceblue; 
-    font-size:xx-large;
-  margin: 3%;}  
   
-  button {
+  /*Botones*/
+  #myBtn {
   width: 25%;
   display:auto;
   margin: 6%;
@@ -52,38 +54,72 @@
   cursor: pointer;
   border-radius: 20px;}
   
- button:hover {
+  .myDonation {
+    width: 70%;
+    display:auto;
+    margin: 6%;
+    padding: 15px;
+    position: left;
+    font-size: 20px;
+  
+    background-color: #f0df2a;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;}
+
+    button:hover { /* estilo al boton cuando el mouse interactua con el*/
     background: #df6a30;
     color: #fff;
   }
+/*contenedor modal*/
+  .formcontainer{ 
+    max-width: 700px;
+    margin: auto;
+    padding: 20px; 
+              
+   }
 
- .formcontainer{
-  max-width: 700px;
-  margin: auto;
-  padding: 20px; 
-
- }
-
- .forminput{
+ .forminput{ /* tamaño del campo nombre y nro de tc */
   margin: 1%;
   padding: 4px;
-  width: 25%
-
+  width: 85%
+   
+  
  }
- .month{
+ .selec{ /* tamaño del campo cvv */
   margin: 1%;
   padding: 4px;
-  width: 25%
+  width: 26%
+  }
 
- }
- .year{
-  margin: 1%;
-  padding: 4px;
-  width: 25%
+  #modal{ /* diseño ventana modal */
+    text-align: center;
+    opacity: 90%;; 
+    border-color: #fbff06;
+    background-color: #df6a30;
+    position: fixed;
+    z-index: 9999;  
+    left: 0;
+    top: 20%;
+    width: 31%; /*anchura*/
+    height: 60%; /*altura*/
+    font-size: 20px; /*letra titulo*/
+    
+  } 
+  #modal input[type="text"] {
+    font-size: 20px; /* Tamaño de fuente personalizado */
+  }
+  #modal select[type="text"] {
+    font-size: 20px; /* Tamaño de fuente personalizado */
+  }
+  
 
- }
- .pago{
-  margin: 1%;
-  padding: 15px;
-  width: 25%
- }
+  .close { /*diseño de icono de cierre X*/
+      color: #f7ff0b;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+    

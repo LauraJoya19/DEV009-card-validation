@@ -35,16 +35,45 @@
       </div>  
       
         
-      <h2 class="letra"> 
+      <h2 class="letra"> <!-- Coloque una clase para dar estilo a la letra -->
        Si deseas apoyar mi talento te invito a hacer una donacion       
       </h2>
       
-       <a href="validacion.html"> <button id="boton"> Donación </button>
-       </a>
-       
-        
+      <button id="myBtn">Donación</button> 
+     
+
+
+
+      <!-- Pantalla Modal -->
+      <dialog id="modal">
+        <span class="close">&times;</span>
+        <h2>Realiza tu Donación</h2>
+        <section class="formcontainer">
+          <form id="form" class="form" action="">
+                      
+            <input id="nombreDonante" class="forminput" type="text" placeholder="Nombre"/>              
+            <br> 
+            <p id="donanteName"></p>
+            <input id="creditCardNumber" class="forminput" maxlength="19" type="text" placeholder="Numero de Tarjeta de Credito"/>
+            <br>
+            <p id="nroTarjeta"></p>       
+            <input id="cvv" class="selec" maxlength="4" placeholder="CVV" type="text">
+            <p id="codeVer"></p>
+                       
+            <button id="myDonation" class="myDonation" >Realiza tu Donación</button>
+            <p id="validar"></p> 
+            <p id="maskedCard"></p>
+            
+          </form>
+        </section>
+     </dialog>  
+     <footer>
+     <p> copyright 2023 &#169;</p>
+     </footer>
+     
     
     <script src="index.js" type="module"></script>
-  </body>
+    
+    </body>
 </html>
 
