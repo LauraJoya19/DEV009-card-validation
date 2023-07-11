@@ -1,5 +1,5 @@
 # Thomas Gallery
-
+https://github.com/LauraJoya19/DEV009-data-lovers/assets/133243351/f994df96-f68e-488e-a638-b43f7201fdda
 ## Indice
 * [1. Definición del producto.](#1-definición-del-producto)
 * [2. Sobre la aplicacion.](#2-sobre-la-aplicacion)
